@@ -14,8 +14,10 @@ O Sistema de Vendas tem as seguintes funcionalidades:
 
 3. Quando a forma de pagamento for escolhida como crédito, permitir o registro da quantidade de parcelas, sendo que cada parcela deve ser maior que R$ 20,00
 
-**OBservações importantes:**
+## **OBservações importantes:**
 - Todos os métodos de ação, excluindo os getters e setters, foram testados tanto para fluxos corretos quanto para fluxos alternativos, garantindo a integridade do sistema.
+
+- O teste do método selecionarProdutoPorId como visto em aula, o teste funciona, porém ao utilizar o jococo o teste simplismete para de funcionar. Logo acreditamos que a nossa cobertura de testes esteja entorno de 90%, já que tivemos que deixar o teste desse método comentado.
 
 - O sistema foi construído com base nos testes TDD, adaptando a arquitetura de acordo com os casos de teste previamente definidos. No entanto, para centralizar os testes em uma classe, a classe Mercado foi criada para atuar como um repositório de controle de estoque, pedidos e vendas. Embora não seja o ideal, isso impediu a compilação do sistema ao criar outras classes de teste.
 
