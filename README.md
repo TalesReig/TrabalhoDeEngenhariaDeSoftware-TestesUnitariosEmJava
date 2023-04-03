@@ -19,3 +19,12 @@ O Sistema de Vendas tem as seguintes funcionalidades:
 
 - O sistema foi construído com base nos testes TDD, adaptando a arquitetura de acordo com os casos de teste previamente definidos. No entanto, para centralizar os testes em uma classe, a classe Mercado foi criada para atuar como um repositório de controle de estoque, pedidos e vendas. Embora não seja o ideal, isso impediu a compilação do sistema ao criar outras classes de teste.
 
+## Calculo de Complexidade Ciclomática 
+
+- Método de InserirEstoque: CC = 1;
+- Método de EditarEstoque: CC = 2;
+- Método de ExcluirDoEstoque: CC = 2;
+- Método de getProdutoPorId: CC = 1;
+- Método de adicionarProdutoNoPedido: CC = 7;
+- Método de removerProduto: CC = 2;
+- Método de concluirVenda: CC = 4;
