@@ -40,9 +40,9 @@ O Sistema de Vendas tem as seguintes funcionalidades:
 ## Calculo de Complexidade Ciclomática 
 
 - Método de InserirEstoque: CC = 1;
-- Método de EditarEstoque: CC = 2;
-- Método de ExcluirDoEstoque: CC = 2;
-- Método de getProdutoPorId: CC = 1;
-- Método de adicionarProdutoNoPedido: CC = 7;
-- Método de removerProduto: CC = 2;
-- Método de concluirVenda: CC = 4;
+- Método de EditarEstoque: CC = 3
+- Método de ExcluirDoEstoque: CC = 3;
+- Método de getProdutoPorId: CC = 3;
+- Método de adicionarProdutoNoPedido: CC = 5;
+- Método de removerProduto: CC = 4;
+- Método de concluirVenda: CC = 7;
